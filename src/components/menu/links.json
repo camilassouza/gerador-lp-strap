@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_menu_links",
+  "info": {
+    "displayName": "links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-links",
+      "required": true
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-links"
+    }
+  }
+}

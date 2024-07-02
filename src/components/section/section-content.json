@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_section_contents",
+  "info": {
+    "displayName": "section_content"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "blocks",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata"
+    }
+  }
+}

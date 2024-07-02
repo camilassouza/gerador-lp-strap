@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_menu_menus",
+  "info": {
+    "displayName": "menu",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo_text": {
+      "type": "text",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "menu_links": {
+      "displayName": "menu links",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-links"
+    }
+  }
+}
