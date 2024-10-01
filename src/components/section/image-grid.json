@@ -1,7 +1,8 @@
 {
   "collectionName": "components_section_image_grids",
   "info": {
-    "displayName": "image-grid"
+    "displayName": "section-image",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,14 +10,19 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "background": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

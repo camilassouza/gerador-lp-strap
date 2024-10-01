@@ -42,11 +42,13 @@ export interface MenuMenu extends Schema.Component {
 export interface SectionImageGrid extends Schema.Component {
   collectionName: 'components_section_image_grids';
   info: {
-    displayName: 'image-grid';
+    displayName: 'section-image';
+    description: '';
   };
   attributes: {
     title: Attribute.String;
     image: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
+    background: Attribute.Boolean & Attribute.DefaultTo<false>;
   };
 }
 
@@ -111,11 +113,13 @@ export interface SectionSectionTwoColomns extends Schema.Component {
 export interface SectionTextGrid extends Schema.Component {
   collectionName: 'components_section_text_grids';
   info: {
-    displayName: 'text-grid';
+    displayName: 'section-text';
+    description: '';
   };
   attributes: {
     title: Attribute.String & Attribute.Required;
     description: Attribute.String & Attribute.Required;
+    background: Attribute.Boolean & Attribute.DefaultTo<false>;
   };
 }
 
